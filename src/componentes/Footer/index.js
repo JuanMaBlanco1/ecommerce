@@ -7,14 +7,14 @@ class Footer extends Component {
     return (
       <footer>
         <div className="social">
-          <a className="social-github" href="https://github.com/SantiPoggi" target="blank">
+          <a className="social-github" href="https://github.com/JuanMaBlanco1" target="blank">
             <GitHub
               color="secondary"
               fontSize="large"
               className="social-icons"
             />
           </a>
-          <a className="social-linkedin" href="https://www.linkedin.com/in/santiago-poggi-914325168" target="blank">
+          <a className="social-linkedin" href="https://www.linkedin.com/in/juan-martin-blanco/" target="blank">
             <LinkedIn
               color="secondary"
               fontSize="large"
@@ -23,13 +23,7 @@ class Footer extends Component {
           </a>
         </div>
 
-        <div className="copyright">
-          © 2021 Copyright
-          <a href="https://www.linkedin.com/in/santiago-poggi-914325168" target="blank">
-            {" "}
-            Santiago Poggi
-          </a>
-        </div>
+       
       </footer>
     );
   }
